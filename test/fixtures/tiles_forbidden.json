@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "statusCode": 403,
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  },
+  "_body": {
+    "error": "forbidden",
+    "message": "redacted account is not allowed to access this resource"
+  }
+}

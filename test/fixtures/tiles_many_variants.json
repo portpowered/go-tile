@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  },
+  "_body": {
+    "version": 1,
+    "revision": 1,
+    "timestamp": "2026-03-23T12:03:00.000Z",
+    "timestamp_ms": 1774531380000,
+    "result_code": 0,
+    "result": "ok",
+    "num_tiles": 4,
+    "result_list": [
+      {
+        "uuid": "tile-mate-uuid",
+        "name": "Keys",
+        "tile_type": "TILE_MATE",
+        "firmware_version": "01.12.14.0",
+        "visible": true,
+        "last_tile_state": {
+          "uuid": "tile-mate-uuid",
+          "timestamp": 1774531100,
+          "timestamp_ms": 1774531100000,
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "altitude": 10.0,
+          "is_lost": false,
+          "ring_state_set_timestamp": "2026-03-23T11:50:00.000Z",
+          "connection_state_timestamp": "2026-03-23T11:55:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.95,
+          "is_battery_dead": false
+        }
+      },
+      {
+        "uuid": "tile-slim-uuid",
+        "name": "Wallet",
+        "tile_type": "TILE_SLIM",
+        "firmware_version": "01.10.08.0",
+        "visible": true,
+        "last_tile_state": {
+          "uuid": "tile-slim-uuid",
+          "timestamp": 1774530000,
+          "timestamp_ms": 1774530000000,
+          "latitude": 37.785,
+          "longitude": -122.4094,
+          "altitude": 5.0,
+          "is_lost": true,
+          "ring_state_set_timestamp": "2026-03-23T10:00:00.000Z",
+          "connection_state_timestamp": "2026-03-23T10:30:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.2,
+          "is_battery_dead": false
+        }
+      },
+      {
+        "uuid": "tile-sticker-uuid",
+        "name": "Remote",
+        "tile_type": "TILE_STICKER",
+        "firmware_version": "02.01.00.0",
+        "visible": true,
+        "last_tile_state": {
+          "uuid": "tile-sticker-uuid",
+          "timestamp": 1774529000,
+          "timestamp_ms": 1774529000000,
+          "latitude": 37.79,
+          "longitude": -122.4,
+          "altitude": 0,
+          "is_lost": false,
+          "ring_state_set_timestamp": "2026-03-23T09:30:00.000Z",
+          "connection_state_timestamp": "2026-03-23T09:31:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.75,
+          "is_battery_dead": false
+        }
+      },
+      {
+        "uuid": "tile-pro-hidden-uuid",
+        "name": "Archived Backpack",
+        "tile_type": "TILE_PRO",
+        "firmware_version": "03.01.00.0",
+        "visible": false,
+        "last_tile_state": {
+          "uuid": "tile-pro-hidden-uuid",
+          "timestamp": 1774528000,
+          "timestamp_ms": 1774528000000,
+          "latitude": 37.8,
+          "longitude": -122.39,
+          "altitude": 2.0,
+          "is_lost": false,
+          "ring_state_set_timestamp": "2026-03-23T09:00:00.000Z",
+          "connection_state_timestamp": "2026-03-23T09:05:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.6,
+          "is_battery_dead": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  },
+  "_body": {
+    "version": 1,
+    "revision": 1,
+    "timestamp": "2026-03-23T12:04:00.000Z",
+    "timestamp_ms": 1774531440000,
+    "result_code": 0,
+    "result": "ok",
+    "num_tiles": 1,
+    "result_list": [
+      {
+        "uuid": "tile-no-location-uuid",
+        "name": "Luggage",
+        "tile_type": "TILE_PRO",
+        "firmware_version": "03.02.00.0",
+        "visible": true,
+        "last_tile_state": {
+          "uuid": "tile-no-location-uuid",
+          "timestamp": 1774527000,
+          "timestamp_ms": 1774527000000,
+          "is_lost": false,
+          "ring_state_set_timestamp": "2026-03-23T08:00:00.000Z",
+          "connection_state_timestamp": "2026-03-23T08:05:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.5,
+          "is_battery_dead": false
+        }
+      }
+    ]
+  }
+}

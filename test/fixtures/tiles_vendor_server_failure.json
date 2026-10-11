@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "statusCode": 503,
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  },
+  "_body": {
+    "error": "vendor_unavailable",
+    "message": "Tile service temporarily unavailable"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  },
+  "_body": {
+    "version": 1,
+    "revision": 1,
+    "timestamp": "2026-03-23T12:02:00.000Z",
+    "timestamp_ms": 1774531320000,
+    "result_code": 0,
+    "result": "ok",
+    "num_tiles": 1,
+    "result_list": [
+      {
+        "uuid": "tile-one-uuid",
+        "name": "Keys",
+        "tile_type": "TILE_MATE",
+        "firmware_version": "01.12.14.0",
+        "visible": true,
+        "last_tile_state": {
+          "uuid": "tile-one-uuid",
+          "timestamp": 1774531100,
+          "timestamp_ms": 1774531100000,
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "altitude": 10.0,
+          "is_lost": false,
+          "ring_state_set_timestamp": "2026-03-23T11:50:00.000Z",
+          "connection_state_timestamp": "2026-03-23T11:55:00.000Z",
+          "voip_state": "NONE",
+          "battery_level": 0.95,
+          "is_battery_dead": false
+        }
+      }
+    ]
+  }
+}

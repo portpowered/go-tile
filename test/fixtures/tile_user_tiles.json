@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "revision": 1,
+  "timestamp": "2026-03-23T12:00:00.000Z",
+  "timestamp_ms": 1774531200000,
+  "result_code": 0,
+  "result": "ok",
+  "num_tiles": 2,
+  "result_list": [
+    {
+      "uuid": "tile-uuid-001",
+      "name": "Keys",
+      "tile_type": "TILE_MATE",
+      "firmware_version": "01.12.14.0",
+      "visible": true,
+      "last_tile_state": {
+        "uuid": "tile-uuid-001",
+        "timestamp": 1774531100,
+        "timestamp_ms": 1774531100000,
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "altitude": 10.0,
+        "is_lost": false,
+        "ring_state_set_timestamp": "2026-03-23T11:50:00.000Z",
+        "connection_state_timestamp": "2026-03-23T11:55:00.000Z",
+        "voip_state": "NONE",
+        "battery_level": 0.95,
+        "is_battery_dead": false
+      }
+    },
+    {
+      "uuid": "tile-uuid-002",
+      "name": "Wallet",
+      "tile_type": "TILE_SLIM",
+      "firmware_version": "01.10.08.0",
+      "visible": true,
+      "last_tile_state": {
+        "uuid": "tile-uuid-002",
+        "timestamp": 1774530000,
+        "timestamp_ms": 1774530000000,
+        "latitude": 37.7850,
+        "longitude": -122.4094,
+        "altitude": 5.0,
+        "is_lost": true,
+        "ring_state_set_timestamp": "2026-03-23T10:00:00.000Z",
+        "connection_state_timestamp": "2026-03-23T10:30:00.000Z",
+        "voip_state": "NONE",
+        "battery_level": 0.20,
+        "is_battery_dead": false
+      }
+    }
+  ]
+}
